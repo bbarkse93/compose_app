@@ -1,3 +1,5 @@
+import 'package:compose/_core/constants/theme.dart';
+import 'package:compose/ui/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Placeholder(),
+      theme: theme(),
+      home: Scaffold(
+        body: SplashPage(),
+      ),
     );
   }
 }

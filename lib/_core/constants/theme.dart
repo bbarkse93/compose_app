@@ -21,14 +21,14 @@ MaterialColor primaryWhite = MaterialColor(
 ThemeData theme() {
   return ThemeData(
     appBarTheme: appBarTheme(),
-    fontFamily: 'carrot',
+    fontFamily: "compose",
     primarySwatch: primaryWhite,
   );
 }
 
 AppBarTheme appBarTheme() {
   return const AppBarTheme(
-    titleTextStyle: TextStyle(color: kDarkColor, fontSize: fontLarge, fontFamily: 'carrot'),
+    titleTextStyle: TextStyle(color: kDarkColor, fontSize: fontLarge, fontFamily: 'compose'),
     centerTitle: true,
     backgroundColor: Colors.white,
     elevation: 1,
